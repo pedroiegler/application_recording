@@ -1,0 +1,52 @@
+.live-stream-container {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 40px 32px;
+    background-color: #fff;
+}
+
+.live-video, .live-snapshot {
+    margin-bottom: 20px;
+}
+
+.video-player {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.live-snapshot {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.recordings {
+    margin-top: 20px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.recordings-list {
+    list-style: none;
+    padding: 0;
+}
+
+.recording-item {
+    margin-bottom: 10px;
+}
+
+.recording-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.recording-item a:hover {
+    text-decoration: underline;
+}
