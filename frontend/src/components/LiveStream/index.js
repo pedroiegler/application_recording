@@ -1,9 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import './LiveStream.css';
+import './style.css';
 
 const LiveStream = ({ camera }) => {
-    const [search, setSearch] = useState('');
-
     return (
         <div className="live-stream-container">
             <h3 className="camera-list-container-h3">{camera.name}</h3>

@@ -2,23 +2,24 @@
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 40px 32px;
-    background-color: #fff;
+    background-color: #fdfdfd;
 }
 
-.live-video, .live-snapshot {
-    margin-bottom: 20px;
-}
 
 .video-player {
     width: 100%;
     height: auto;
     border-radius: 5px;
+    box-shadow: 
+        0 0 0 2px #ccc;
 }
 
 .live-snapshot {
     width: 100%;
     height: auto;
     border-radius: 5px;
+    box-shadow: 
+        0 0 0 2px #ccc;
 }
 
 .recordings {
@@ -49,4 +50,8 @@
 
 .recording-item a:hover {
     text-decoration: underline;
+}
+
+.camera-list-container-h3{
+    margin-bottom: 15px;
 }
