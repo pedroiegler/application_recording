@@ -15,8 +15,8 @@ const CameraList = ({ onSelectCamera }) => {
                 const data = await response.json();
                 setCameras(data.results || []);
             } catch (error) {
-                console.log("Error: " + error);
-            } 
+                console.log(error.message);
+            }
         };
         loadCameras();
     }, []);

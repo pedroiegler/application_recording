@@ -10,16 +10,18 @@
     width: 100%;
     height: auto;
     border-radius: 5px;
-    box-shadow: 
-        0 0 0 2px #ccc;
+}
+
+.video-player-stream {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
 }
 
 .live-snapshot {
     width: 100%;
     height: auto;
     border-radius: 5px;
-    box-shadow: 
-        0 0 0 2px #ccc;
 }
 
 .recordings {
@@ -54,4 +56,8 @@
 
 .camera-list-container-h3{
     margin-bottom: 15px;
+}
+
+.recording-video{
+    margin-top: 40px;
 }

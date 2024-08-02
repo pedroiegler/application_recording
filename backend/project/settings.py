@@ -1,4 +1,5 @@
 from pathlib import Path
+import os
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -88,3 +89,5 @@ STATIC_ROOT = BASE_DIR / 'static'
 CORS_ORIGIN_ALLOW_ALL = True
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+ANGELCAM_API_TOKEN = os.getenv('ANGELCAM_API_TOKEN', '04e8a2a6387e994ebf129a35650e533415b3b982')
