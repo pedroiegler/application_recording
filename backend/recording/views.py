@@ -6,7 +6,7 @@ import requests
 
 class UserInfoView(APIView):
     def get(self, request, *args, **kwargs):
-        token = settings.ANGELCAM_API_TOKEN
+        token = '04e8a2a6387e994ebf129a35650e533415b3b982'
         headers = {
             'Authorization': f'PersonalAccessToken {token}',
             'Content-Type': 'application/json',
@@ -20,7 +20,7 @@ class UserInfoView(APIView):
 
 class CameraListView(APIView):
     def get(self, request, *args, **kwargs):
-        token = settings.ANGELCAM_API_TOKEN 
+        token = '04e8a2a6387e994ebf129a35650e533415b3b982' 
         headers = {
             'Authorization': f'PersonalAccessToken {token}',
             'Content-Type': 'application/json',
@@ -35,7 +35,7 @@ class CameraListView(APIView):
 class CameraRecordingView(APIView):
     def get(self, request, *args, **kwargs):
         camera_id = kwargs.get('camera_id')
-        token = settings.ANGELCAM_API_TOKEN
+        token = '04e8a2a6387e994ebf129a35650e533415b3b982'
         headers = {
             'Authorization': f'PersonalAccessToken {token}',
             'Content-Type': 'application/json',
@@ -59,7 +59,7 @@ class CameraRecordingStreamView(APIView):
     def get(self, request, *args, **kwargs):
         camera_id = kwargs.get('camera_id')
         start_time = request.query_params.get('start')  
-        token = settings.ANGELCAM_API_TOKEN
+        token = '04e8a2a6387e994ebf129a35650e533415b3b982'
         headers = {
             'Authorization': f'PersonalAccessToken {token}',
             'Content-Type': 'application/json',
